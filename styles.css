@@ -50,6 +50,26 @@ body {
   box-shadow: var(--shadow-md);
 }
 
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.originality-logo {
+  display: block;
+}
+
+.originality-logo img {
+  display: block;
+  height: 42px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
 .logo {
   margin: 0;
   font-size: 1.75rem;
@@ -130,6 +150,12 @@ body {
 
 .toc-list a:hover {
   color: var(--color-accent);
+  background: var(--color-callout-bg);
+}
+
+.toc-list a.is-active {
+  color: var(--color-accent);
+  font-weight: 600;
   background: var(--color-callout-bg);
 }
 
