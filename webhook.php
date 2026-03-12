@@ -41,7 +41,7 @@ if ($rawInput === false || $rawInput === '') {
 
 // אימות חתימה (אם הוגדר Secret ב-GitHub)
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE_256'] ?? '';
-if ($WEBHOOK_SECRET !== '' && $WEBHOOK_SECRET !== 'החלף-בסיסמה-סודית') {
+if ($WEBHOOK_SECRET !== '' && $WEBHOOK_SECRET !== '12345') {
     $expected = 'sha256=' . hash_hmac('sha256', $rawInput, $WEBHOOK_SECRET);
     if (!hash_equals($expected, $signature)) {
         logMessage('Webhook rejected: invalid signature');
