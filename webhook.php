@@ -8,7 +8,6 @@
  * Secret: בחר סיסמה והזן אותה ב-WEBHOOK_SECRET למטה
  */
 
- 
 // ============ הגדרות ============
 $WEBHOOK_SECRET = getenv('GITHUB_WEBHOOK_SECRET') ?: '12345';
 $REPO_PATH      = __DIR__;  // תיקיית הפרויקט (או נתיב מלא, למשל /var/www/doc.trustgrade.cloud)
