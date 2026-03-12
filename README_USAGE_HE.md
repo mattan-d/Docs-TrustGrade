@@ -29,7 +29,7 @@ TrustGrade הוא תוסף ל-Moodle שמאפשר:
 - **חידון אישי לסטודנט** – לאחר הגשה, הסטודנט מקבל חידון מותאם להגשה שלו.
 - **דוח חידון** – ציוני חידון, יושרה (מעקב יציאה מהחלון), והערכת הגשה (AI): הערכה, ציון מוצע, חוזקות והצעות לשיפור.
 
-**דרישה:** נדרש חיבור לשירות TrustGrade AI Gateway (מנוי דרך Originality LTD / CentricApp).
+**דרישה:** נדרש חיבור לשירות TrustGrade AI Gateway (מנוי דרך מקוריות).
 
 ---
 
@@ -286,4 +286,4 @@ TrustGrade הוא תוסף ל-Moodle שמאפשר:
 
 ---
 
-**תמיכה:** לשאלות טכניות או למנוי לשירות TrustGrade AI Gateway – פנה ל-Originality LTD / CentricApp (support@centricapp.co / https://centricapp.co).
+**תמיכה:** לשאלות טכניות או למנוי לשירות TrustGrade AI Gateway – פנה למקוריות (CustomerService@originality.co.il / https://originality.co.il).
